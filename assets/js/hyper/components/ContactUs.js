@@ -18,7 +18,7 @@ export default function ContactUs({state, actions}) {
                 Hollywood, ca 12402
               </h6>
               <p>
-                <strong>Email:</strong><a href="mailto:info@primsteak.com">info@primesteak.com</a>
+                <strong>Email:</strong><a href="mailto:info@primsteak.com">info@primegrade.com</a>
               </p>
             </div>
             <div class="col-md-6">
