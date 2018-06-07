@@ -1,5 +1,5 @@
 import { h, app } from 'hyperapp'
-import devtools from 'hyperapp-redux-devtools';
+// import devtools from 'hyperapp-redux-devtools';
 import {actions} from './actions/actions.js'
 import {globalState} from './state/globalState.js'
 import App from './components/App.js'
@@ -17,8 +17,7 @@ app({
       console.groupEnd()
     },
     load(state, actions) {
-
+      actions.intro()
     }
-  },
-  mixins: [devtools()]
+  }
 })

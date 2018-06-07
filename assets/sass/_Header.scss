@@ -6,6 +6,13 @@
   z-index: 20;
   .logo{
     display: inline-block;
+    .fa{
+      color: white;
+      transition: all .4s ease-in-out;
+      &:hover{
+        color: $red;
+      }
+    }
   }
   nav{
     display: inline-block;
