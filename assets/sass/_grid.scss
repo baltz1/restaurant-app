@@ -43,7 +43,7 @@
 }
 @media #{$breakpoint-small} {
   .container {
-    width: 95%;
+    width: 90%;
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
@@ -58,7 +58,7 @@
 }
 @media #{$breakpoint-medium} {
   .container {
-    width: 95%;
+    width: 90%;
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
@@ -73,7 +73,7 @@
 }
 @media #{$breakpoint-large} {
   .container {
-    width: 95%;
+    width: 90%;
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {

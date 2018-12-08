@@ -11,8 +11,12 @@ export default function OurStory({state, actions}) {
           <p>
             Bacon ipsum dolor amet ground round pork loin shankle ham hock chicken turducken kevin cow spare ribs ham, jowl chuck tenderloin. Kevin biltong pancetta burgdoggen. Frankfurter ham fatback, pastrami t-bone drumstick doner pork chop jowl. Pork pork belly cupim venison salami, picanha sirloin pancetta turducken pork loin tenderloin shoulder cow kevin. Brisket pork loin landjaeger pork. Boudin ribeye fatback, hamburger rump frankfurter drumstick ham hock picanha. Porchetta venison buffalo short loin prosciutto hamburger tongue capicola meatloaf salami picanha.
           </p>
-          <div class="quote">"The best food in the town of Huntington"- <strong>Thomas Eggsy</strong></div>
+          <div class="quote">
+          "The best food in the town of Huntington"- <strong>Thomas Eggsy</strong>
+          </div>
+          <div class="btn-container">
             <a href="#" class="reserve-btn">Reserve</a>
+          </div>
         </div>
         <div class="col-md-6">
           <div class="video-img">

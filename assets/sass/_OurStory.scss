@@ -3,24 +3,30 @@
   .quote{
     color: $paragraphColor;
     margin: .5rem 0 3rem;
+    line-height: 1.8rem;
     strong{
       font-weight: 700;
       color: $black;
     }
   }
-  .reserve-btn{
-    font-family: $displayFont;
-    display: inline-block;
-    padding: 20px 40px;
-    border: 1px solid $black;
-    text-align: center;
-    text-decoration: none;
-    color: $black;
-    text-transform: uppercase;
-    transition: all .3s ease-in-out;
-    &:hover{
-      background: $red;
-      color: white;
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    .reserve-btn{
+      font-family: $displayFont;
+      display: inline-block;
+      padding: 20px 40px;
+      border: 1px solid $black;
+      text-align: center;
+      text-decoration: none;
+      color: $black;
+      text-transform: uppercase;
+      transition: all .3s ease-in-out;
+      &:hover{
+        background: $red;
+        color: white;
+      }
     }
   }
   .video-img{
@@ -35,4 +41,11 @@
   }
 }
 
-// linear-gradient(135deg, rgba(0, 0, 0, .1) 0, #000 100%),
+@media only screen and (max-width: 768px){
+  #OurStory{
+    .quote{
+      margin: .5rem 0 2rem;
+
+    }
+  }
+}

@@ -14,19 +14,59 @@
       }
     }
   }
-  nav{
+  .topNav{
     display: inline-block;
     float: right;
     text-align: right;
-    a{
-      display: inline-block;
-      color: white;
-      text-decoration: none;
-      padding: 0 10px;
-      transition: all .4s ease-in-out;
-      &:hover{
-        color: $red;
+    .link-container{
+      a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+        transition: all .4s ease-in-out;
+        &:hover{
+          color: $red;
+        }
+      }
+      .icon{
+        display: none;
       }
     }
   }
+}
+
+@media only screen and (max-width: 768px){
+  .header{
+    .topNav{
+      .link-container{
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        width: 100%;
+        .none{
+          display: none;
+          transition: all .5s ease-in-out;
+        }
+        .mobile-view{
+          display: block;
+          padding: 20px 45px 20px 10px;
+          transition: all .5s ease-in-out;
+          background: $black;
+        }
+        .icon{
+          display: block;
+          padding: 20px 45px 20px 10px;
+        }
+        .responsive{
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 451px){
+
 }
